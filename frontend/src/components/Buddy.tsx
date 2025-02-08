@@ -11,7 +11,7 @@ import {
 import { Button } from "./ui/button";
 import { ExpandableTabs } from "./ui/expandable-tabs";
 import { Textarea } from "./ui/textarea";
-import useWebSocket, { BuddyInfoProps } from "@/lib/useWebSocket";
+import useWebSocket, { BuddyInfoProps } from "../lib/useWebSocket";
 import React, { useEffect, useRef, useState } from "react";
 import { FileUpload } from "./ui/file-upload";
 import { Ripple } from "./ui/ripple";
@@ -24,7 +24,7 @@ import {
 } from "./ui/dialog";
 import DowloadAll from "./DownloadAllFiles";
 import { DialogTrigger } from "@radix-ui/react-dialog";
-import { disableConsoleLogs, truncateText } from "@/lib/utils";
+import { disableConsoleLogs, truncateText } from "../lib/utils";
 
 export interface BuddyProps {
   buddy: BuddyInfoProps;
